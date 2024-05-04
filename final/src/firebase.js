@@ -8,13 +8,21 @@ import { getFirestore } from "firebase/firestore";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID,
-  measurementId: process.env.REACT_APP_MEASUREMENT_ID,
+  apiKey: "AIzaSyDaxVELpDMHSuvyaY5euodx-2qAfuLhtmQ",
+
+  authDomain: "nikestore-5ed52.firebaseapp.com",
+
+  databaseURL: "https://nikestore-5ed52-default-rtdb.europe-west1.firebasedatabase.app",
+
+  projectId: "nikestore-5ed52",
+
+  storageBucket: "nikestore-5ed52.appspot.com",
+
+  messagingSenderId: "818550825850",
+
+  appId: "1:818550825850:web:0a1824e8d7c4dc22046cc3",
+
+  measurementId: "G-X6ZYVQBQJ7"
 };
 
 // Initialize Firebase
